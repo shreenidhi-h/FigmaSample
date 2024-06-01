@@ -1,0 +1,42 @@
+.featureText {
+	width: Fill (384px) px;
+	height: Hug (178px) px;
+	gap: 20px;
+	opacity: 0px;
+}
+.subheading {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	color: #475467;
+	width: 384px;
+	height: 72px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.heading {
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	text-align: center;
+	width: 384px;
+	height: 30px;
+	gap: 0px;
+	opacity: 0px;
+	color: #101828;
+}
+
+.content3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: Fill (1, 216px) px;
+	height: Hug (178px) px;
+	gap: 32px;
+	opacity: 0px;
+	text-align: center;
+}

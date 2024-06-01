@@ -1,0 +1,56 @@
+.navbar {
+	width: 1440px;
+	height: 80px;
+	gap: 0px;
+	border: 0px 0px 1px 0px;
+	opacity: 0px;
+	border-bottom: 1px solid #f2f4f7;
+	font-family: "Inter";
+}
+
+.header {
+	width: Fixed (1440px) px;
+	height: 80px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.container {
+	width: Fixed (1280px) px;
+	height: 80px;
+	gap: 0px;
+	opacity: 0px;
+	padding: 20px 32px 20px 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content {
+	width: Hug (586px) px;
+	height: Hug (32px) px;
+	gap: 40px;
+	opacity: 0px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #475467;
+}
+
+.logo {
+	width: Hug (142px) px;
+	height: Hug (32px) px;
+	gap: 0px;
+	opacity: 0px;
+}
+
+.avatar {
+	width: Fixed (40px) px;
+	height: Fixed (40px) px;
+	gap: 0px;
+	opacity: 0px;
+	border-radius: 50%;
+	margin-left: 40px;
+}
