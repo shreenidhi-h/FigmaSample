@@ -9,7 +9,7 @@ import { Faq } from "./Components/Faq/Faquestions";
 import { BlogSection } from "./Components/BlogSection/BlogSection";
 import { Footer } from "./Components/Footer/Footer";
 import { Features } from "./Components/Features/Features";
-
+import { Cat } from "./Components/Cat/Cat";
 function App() {
 	return (
 		<div>
@@ -25,6 +25,7 @@ function App() {
 			<Faq />
 			<Divider />
 			<BlogSection />
+			<Cat />
 			<Footer />
 		</div>
 	);

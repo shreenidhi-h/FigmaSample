@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "./Logo.png";
 import avatar from "./avatar.png";
+import dropDown from "./dropDown.png";
 
 function Navbar() {
 	return (
@@ -10,10 +11,24 @@ function Navbar() {
 				<div className="container">
 					<div className="content">
 						<img src={logo} alt="Logo" className="logo" />
-						<div className="home">Home</div>
-						<div className="products">Products</div>
-						<div className="resources">Resources</div>
-						<div className="pricing">Pricing</div>
+						<div>
+							<a href="https://google.com" target="_blank" className="home">
+								Home
+							</a>
+						</div>
+						<div className="product">
+							<div>Products</div>
+							<img src={dropDown} />
+						</div>
+						<div className="resources">
+							<div>Resources</div>
+							<img src={dropDown} />
+						</div>
+						<div>
+							<a href="https://google.com" target="_blank" className="pricing">
+								Pricing
+							</a>
+						</div>
 					</div>
 					<img src={avatar} alt="Avatar" className="avatar" />
 				</div>

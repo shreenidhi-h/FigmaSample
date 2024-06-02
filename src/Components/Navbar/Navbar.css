@@ -54,3 +54,22 @@
 	border-radius: 50%;
 	margin-left: 40px;
 }
+
+.home,
+.pricing {
+	text-decoration: none;
+}
+
+.pricing:hover {
+	color: black;
+}
+
+.home:hover {
+	color: black;
+}
+
+.product,
+.resources {
+	display: flex;
+	align-items: center;
+}

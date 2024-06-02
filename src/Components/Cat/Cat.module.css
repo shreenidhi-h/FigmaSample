@@ -1,0 +1,120 @@
+.cta {
+	width: 1440px;
+	height: 374px;
+	padding: 96px 0px 96px 0px;
+	opacity: 0px;
+	color: #f9fafb;
+	margin-bottom: 64px;
+}
+.container {
+	width: 1280px;
+	height: 182px;
+	padding: 0px 32px 0px 32px;
+	gap: 32px;
+	opacity: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	width: 1216px;
+	height: 182px;
+	opacity: 0px;
+}
+
+.hSt {
+	width: 768px;
+	height: 94px;
+	gap: 20px;
+	opacity: 0px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.heading {
+	height: 44px;
+	gap: 0px;
+	opacity: 0px;
+	font-family: "Inter";
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 44px;
+	letter-spacing: -0.02em;
+	color: #101828;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.supportingText {
+	font-family: "Inter";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	color: #475467;
+}
+
+.actions {
+	width: 269px;
+	height: 48px;
+	gap: 12px;
+	opacity: 0px;
+	margin-bottom: 96px;
+}
+
+.buttonHolder1,
+.buttonHolder2 {
+	width: 128px;
+	height: 48px;
+	padding: 12px 20px 12px 20px;
+	gap: 8px;
+	border-radius: 8px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+.buttonHolder1 {
+	background-color: #ffffff;
+	border: 1px solid #d0d5dd;
+	box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.buttonHolder2 {
+	background-color: #7f56d9;
+	border: 1px solid #7f56d9;
+	opacity: 0px;
+	box-shadow: 0px 1px 2px 0px #1018280d;
+}
+.btnName1 {
+	width: 88px;
+	height: 24px;
+	gap: 0px;
+	opacity: 0px;
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+	color: #344054;
+}
+
+.btnName2 {
+	width: 89px;
+	height: 24px;
+	gap: 0px;
+	opacity: 0px;
+	font-family: "Inter";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+	color: #ffffff;
+}

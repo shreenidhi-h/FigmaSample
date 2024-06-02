@@ -25,13 +25,16 @@ export const Footer = () => {
 							>
 								Features
 							</a>
-							<a
-								href="https://google.com"
-								target="_blank"
-								className={styles.footerElement}
-							>
-								Solutions
-							</a>
+							<div className={styles.new}>
+								<a
+									href="https://google.com"
+									target="_blank"
+									className={styles.footerElement}
+								>
+									Solutions
+								</a>
+								<p className={styles.newElement}>New</p>
+							</div>
 							<a
 								href="https://google.com"
 								target="_blank"
