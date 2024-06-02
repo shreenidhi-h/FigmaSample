@@ -1,19 +1,24 @@
 .blogSection {
-	width: Fixed (1, 440px) px;
-	height: Hug (830px) px;
+	width: 1440px;
+	height: 830px;
 	padding: 96px 0px 96px 0px;
-	gap: 64px;
 	opacity: 0px;
 }
 
 .container {
-	width: Fixed (1, 280px) px;
+	width: 1280px;
 	height: 130px;
 	padding: 0px 32px 0px 32px;
-	gap: 32px;
+	opacity: 0px;
+	text-align: left;
+}
+.container2 {
+	width: 1280px;
+	height: 444px;
+	padding: 0px 32px 0px 32px;
+	margin-top: 64px;
 	opacity: 0px;
 }
-
 .hSt {
 	width: Fixed (768px) px;
 	height: Hug (130px) px;
@@ -21,18 +26,19 @@
 	opacity: 0px;
 }
 .content {
-	width: Fill (1, 216px) px;
-	height: Hug (130px) px;
+	width: 1216px;
+	height: 130px;
 	gap: 0px;
+	padding-left: 32px;
 	opacity: 0px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .hSubheading {
-	width: Fill (768px) px;
-	height: Hug (80px) px;
+	width: 768px;
+	height: 80px;
 	gap: 12px;
 	opacity: 0px;
 }
@@ -78,7 +84,6 @@
 .actions {
 	width: Hug (148px) px;
 	height: Hug (48px) px;
-	gap: 12px;
 	opacity: 0px;
 }
 

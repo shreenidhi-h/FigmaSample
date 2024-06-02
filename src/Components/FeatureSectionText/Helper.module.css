@@ -3,14 +3,14 @@
 	margin: 20px;
 	opacity: 0px;
 }
-.content {
+.category {
 	display: grid;
 	width: 1300px;
 	grid-template-columns: 1fr 1fr 1fr;
 	place-items: center;
 }
 .subheading {
-	font-family: Inter;
+	font-family: "Inter";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -21,9 +21,35 @@
 	gap: 0px;
 	opacity: 0px;
 }
+.image {
+	width: 1216px;
+	height: 719px;
+	gap: 32px;
+	opacity: 0px;
+	margin-top: 64px;
+}
 
-.heading {
+.linkstyle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 8px;
+}
+
+.atext {
 	font-family: Inter;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	text-align: left;
+	width: 88px;
+	height: 24px;
+	gap: 0px;
+	opacity: 0px;
+	color: #6941c6;
+}
+.heading {
+	font-family: "Inter";
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 30px;

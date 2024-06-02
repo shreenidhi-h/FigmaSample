@@ -1,28 +1,30 @@
 .footer {
-	width: Fill (1, 440px) px;
-	height: Hug (480px) px;
+	width: 1440px;
+	height: 480px;
 	padding: 64px 0px 48px 0px;
 	gap: 64px;
 	opacity: 0px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 .container {
-	width: Fixed (1, 280px) px;
-	height: Hug (240px) px;
+	width: 1280px;
+	height: 240px;
 	padding: 0px 32px 0px 32px;
-	gap: 48px;
+	margin-bottom: 48px;
 	opacity: 0px;
 }
 .content {
 	width: Fill (1, 216px) px;
 	height: Hug (240px) px;
-	gap: 32px;
 	opacity: 0px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
-.produt {
+.product {
 	width: 176px;
 	height: 20px;
 	gap: 0px;
@@ -35,9 +37,21 @@
 	color: #667085;
 }
 
-.text {
-	width: 74px;
-	height: 24px;
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	gap: 16px;
+	width: Fill (176px) px;
+	height: Hug (240px) px;
+	gap: 16px;
+	opacity: 0px;
 }
 .footerText {
 	width: 293px;
@@ -55,27 +69,34 @@
 	width: Fixed (1, 280px) px;
 	height: Hug (64px) px;
 	padding: 0px 32px 0px 32px;
-	gap: 32px;
 	opacity: 0px;
+}
+.footerElement:hover {
+	color: rgb(0, 0, 0);
 }
 .content2 {
-	width: Fill (1, 216px) px;
-	height: Hug (64px) px;
-	padding: 32px 0px 0px 0px;
+	width: 1216px;
+	height: 64px;
+	padding: 32px;
 	gap: 0px;
 	border: 1px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	opacity: 0px;
 	border-top: 1px solid #eaecf0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .footerElement {
-	margin-top: 8px;
+	margin-top: 2px;
 	font-family: "Inter";
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 24px;
 	text-align: left;
 	color: #475467;
+	text-decoration: none;
+	width: max-content;
+	height: 24px;
+	gap: 0px;
+	opacity: 0px;
 }

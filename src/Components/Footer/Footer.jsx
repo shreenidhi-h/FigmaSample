@@ -8,9 +8,9 @@ export const Footer = () => {
 		<div className={styles.footer}>
 			<div className={styles.container}>
 				<div className={styles.content}>
-					<div className={styles.column1}>
-						<p className={styles.product}>Produt</p>
-						<div className={styles.text}>
+					<div className={styles.text}>
+						<div className={styles.column1}>
+							<p className={styles.product}>Produt</p>
 							<a
 								href="https://google.com"
 								target="_blank"
@@ -55,146 +55,146 @@ export const Footer = () => {
 							</a>
 						</div>
 					</div>
-				</div>
-				<div className={styles.text}>
-					<div className={styles.column2}>
-						<p className={styles.product}>Company</p>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							About us
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Carrers
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Press
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							News
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Media Kit
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Contact
-						</a>
+					<div className={styles.text}>
+						<div className={styles.column2}>
+							<p className={styles.product}>Company</p>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								About us
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Carrers
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Press
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								News
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Media Kit
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Contact
+							</a>
+						</div>
 					</div>
-				</div>
-				<div className={styles.text}>
-					<div className={styles.column3}>
-						<p className={styles.product}>Resources</p>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Blog
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Newsletter
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Events
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Help centre
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Tutorials
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Support
-						</a>
+					<div className={styles.text}>
+						<div className={styles.column3}>
+							<p className={styles.product}>Resources</p>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Blog
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Newsletter
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Events
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Help centre
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Tutorials
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Support
+							</a>
+						</div>
 					</div>
-				</div>
-				<div className={styles.text}>
-					<div className={styles.column4}>
-						<p className={styles.product}>Usecases</p>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Startups
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Enterprise
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Government
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							SaaS centre
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Marketplaces
-						</a>
-						<a
-							href="https://google.com"
-							target="_blank"
-							className={styles.footerElement}
-						>
-							Ecommerce
-						</a>
+					<div className={styles.text}>
+						<div className={styles.column4}>
+							<p className={styles.product}>Usecases</p>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Startups
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Enterprise
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Government
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								SaaS centre
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Marketplaces
+							</a>
+							<a
+								href="https://google.com"
+								target="_blank"
+								className={styles.footerElement}
+							>
+								Ecommerce
+							</a>
+						</div>
 					</div>
 					<div className={styles.text}>
 						<div className={styles.column5}>
@@ -292,7 +292,6 @@ export const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<Divider />
 			<div className={styles.container2}>
 				<div className={styles.content2}>
 					<img src={logo} alt="logo" />

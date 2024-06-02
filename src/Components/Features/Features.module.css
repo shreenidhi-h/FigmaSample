@@ -27,7 +27,6 @@
 .hStext {
 	width: Fixed (768px) px;
 	height: Hug (160px) px;
-	gap: 20px;
 	opacity: 0px;
 }
 
@@ -71,7 +70,7 @@
 	height: 60px;
 	gap: 0px;
 	margin-top: 20px;
-	margin-bottom: 64px;
+	margin-bottom: 44px;
 	opacity: 0px;
 	font-family: Inter;
 	font-size: 20px;
@@ -88,8 +87,7 @@
 	opacity: 0px;
 }
 
-.content1,
-.content2 {
+.content1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -98,8 +96,4 @@
 	gap: 32px;
 	opacity: 0px;
 	text-align: center;
-}
-
-.content1 {
-	margin-bottom: 64px;
 }

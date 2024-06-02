@@ -70,21 +70,6 @@
 	text-align: center;
 }
 
-.heading {
-	font-size: 36px;
-	font-weight: 600;
-	line-height: 44px;
-	letter-spacing: -0.02em;
-	text-align: center;
-	width: 768px;
-	height: 44px;
-	gap: 0px;
-	opacity: 0px;
-	color: #101828;
-	font-family: "Inter";
-	margin-bottom: 16px;
-}
-
 .sText {
 	font-family: "Inter";
 	font-size: 20px;

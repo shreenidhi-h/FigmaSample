@@ -63,10 +63,8 @@ const FeatureItems = [
 ];
 
 export const FeatureText = () => {
-	console.log("rendered feature Text");
-
 	return (
-		<div>
+		<div className={styles.content}>
 			{FeatureItems.map((item) => (
 				<FeatureItem
 					icon={item.icon}

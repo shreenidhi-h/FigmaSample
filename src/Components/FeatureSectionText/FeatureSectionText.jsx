@@ -2,7 +2,7 @@ import arrow from "./arrow.png";
 import FeaturedIcon7 from "./FeaturedIcon7.png";
 import FeaturedIcon8 from "./FeaturedIcon8.png";
 import FeaturedIcon9 from "./FeaturedIcon9.png";
-import styles from "../FeatureSections/Simple.module.css";
+import styles from "./Helper.module.css";
 
 function FeatureItem({ icon, heading, subHeading, links }) {
 	return (
@@ -74,13 +74,13 @@ const FeatureItems = [
 ];
 export const FeatureSectionText = () => {
 	return (
-		<div>
+		<div className={styles.category}>
 			{FeatureItems.map((item) => (
 				<FeatureItem
 					icon={item.icon}
 					heading={item.heading}
 					subHeading={item.subHeading}
-					link={item.links}
+					links={item.links}
 				/>
 			))}
 		</div>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./BlogSection.module.css";
+import { Helper } from "../Helper/Helper";
 
 export const BlogSection = () => {
 	return (
@@ -22,6 +23,9 @@ export const BlogSection = () => {
 						</button>
 					</div>
 				</div>
+			</div>
+			<div className={styles.container2}>
+				<Helper />
 			</div>
 		</div>
 	);
