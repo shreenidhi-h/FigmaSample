@@ -79,34 +79,16 @@
 	height: 60px;
 	opacity: 0px;
 	width: 768px;
+	margin-bottom: 64px;
 }
 
-.image {
-	width: 1216px;
-	height: 719px;
-	gap: 32px;
-	opacity: 0px;
-	margin-top: 64px;
-}
-
-.linkstyle {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 8px;
-}
-
-.atext {
-	font-family: Inter;
-	font-size: 16px;
+.heading {
+	font-family: "Inter";
+	font-size: 36px;
 	font-weight: 600;
-	line-height: 24px;
-	text-align: left;
-	width: 88px;
-	height: 24px;
-	gap: 0px;
-	opacity: 0px;
-	color: #6941c6;
+	line-height: 44px;
+	letter-spacing: -0.02em;
+	text-align: center;
 }
 
 .imagestyle {
