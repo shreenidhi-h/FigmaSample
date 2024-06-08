@@ -1,5 +1,4 @@
 import React from "react";
-import "./Section.css";
 import Content from "./Content.png";
 import { useState } from "react";
 import iconbtn from "./iconbtn.png";
@@ -11,7 +10,7 @@ function Section() {
 	let toggleCheck2 = selectedDiv == 1 ? " themelight" : "";
 
 	return (
-		<div className="section">
+		<div className="section flex justify-center flex-col items-center bg-slate-400">
 			<div className="container-one">
 				<div className="contentsec">
 					<div className="heading-s">

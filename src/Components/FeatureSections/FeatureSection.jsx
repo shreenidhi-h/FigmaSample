@@ -6,7 +6,7 @@ import { FeatureSectionText } from "../FeatureSectionText/FeatureSectionText";
 
 export const FeatureSection = () => {
 	return (
-		<div className={styles.featureSection}>
+		<div className="bg-orange-500">
 			<div className={styles.conatiner1}>
 				<div className={styles.content1}></div>
 				<div className={styles.hSt}>
