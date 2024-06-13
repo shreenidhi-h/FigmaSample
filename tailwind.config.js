@@ -12,6 +12,7 @@ module.exports = {
 				coal: "#101828",
 				lightpurple: "#7f56d9",
 				lightblue: "#f9fafb",
+				pista: "#067647",
 			},
 		},
 	},

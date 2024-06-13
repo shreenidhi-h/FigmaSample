@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import icronWrap from "./iconWrap.png";
 import plusCircle from "./plusCircle.png";
-import styles from "./Faq.module.css";
 
 const FaqItem = ({ question, answer, index }) => {
 	const [isOpened, setIsopened] = useState(index === 0);
@@ -9,15 +8,21 @@ const FaqItem = ({ question, answer, index }) => {
 	return (
 		<>
 			<div
-				className={styles.question}
+				className="flex first:border-t-0 justify-between border-t items-center py-6"
 				onClick={() => {
 					setIsopened(!isOpened);
 				}}
 			>
-				<div className={styles.text1}>{question}</div>
+				<div className="text-lg font-medium text-left text-coal mb-2">
+					{question}
+				</div>
 				<img src={isOpened ? icronWrap : plusCircle} />
 			</div>
-			{isOpened ? <div className={styles.sText1}>{answer}</div> : null}
+			{isOpened ? (
+				<div className="mb-6 text-uda text-left font-normal text-base">
+					{answer}
+				</div>
+			) : null}
 		</>
 	);
 };
@@ -28,6 +33,7 @@ const Faqitems = [
 		answer:
 			"Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
 	},
+	,
 	{
 		question: "Can I change my plan later?",
 		answer:
@@ -57,7 +63,7 @@ const Faqitems = [
 
 export const FaqWrapper = () => {
 	return (
-		<div>
+		<div className="flex flex-col justify-center items-left">
 			{Faqitems.map((item, index) => (
 				<FaqItem question={item.question} answer={item.answer} index={index} />
 			))}

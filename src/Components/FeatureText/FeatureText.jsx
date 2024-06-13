@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./FeatureText.module.css";
 import FeaturedIcon from "./FeaturedIcon.png";
 import FeaturedIcon2 from "./FeaturedIcon2.png";
 import FeaturedIcon3 from "./FeaturedIcon3.png";
@@ -10,10 +9,14 @@ import FeaturedIcon6 from "./FeaturedIcon6.png";
 const FeatureItem = ({ icon, heading, subHeading }) => {
 	return (
 		<div>
-			<div className={styles.featureText}>
-				<div className={styles.icon}>{icon}</div>
-				<div className={styles.heading}> {heading}</div>
-				<div className={styles.subheading}>{subHeading}</div>
+			<div className="m-5">
+				<div className="flex justify-center items-center">{icon}</div>
+				<div className="text-xl font-semibold text-center text-coal">
+					{heading}
+				</div>
+				<div className="text-base font-normal text-uda text-center">
+					{subHeading}
+				</div>
 			</div>
 		</div>
 	);
@@ -64,7 +67,7 @@ const FeatureItems = [
 
 export const FeatureText = () => {
 	return (
-		<div className={styles.content}>
+		<div className="grid grid-cols-3 place-items-center">
 			{FeatureItems.map((item) => (
 				<FeatureItem
 					icon={item.icon}

@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Blog.module.css";
 import Image1 from "./Image.png";
 import avatar1 from "./Avatar1.png";
 import IconWrap1 from "./IconWrap1.png";
@@ -19,15 +18,21 @@ const HelperItem = ({
 	avatar,
 }) => {
 	return (
-		<div className={classes.blogPostCard}>
-			<div className={classes.image}>{image}</div>
-			<div className={classes.supportingText}>{supportingText}</div>
-			<div className={classes.headingElement}>
-				<div className={classes.heading}> {heading}</div>
-				<div className={classes.icon}>{icon}</div>
+		<div className="flex justify-center items-start mx-5 flex-col w-fit">
+			<div className="image">{image}</div>
+			<div className="text-lavender text-left font-semibold text-sm mt-4 mb-1">
+				{supportingText}
 			</div>
-			<div className={classes.subHeading}>{subHeading}</div>
-			<div className={classes.avatar}>{avatar}</div>
+			<div className="flex justify-between w-full items-center">
+				<div className="heading text-2xl text-left font-semibold text-coal mb-2">
+					{heading}
+				</div>
+				<div className="icon">{icon}</div>
+			</div>
+			<div className="text-base text-uda font-normal text-left flex-wrap mb-4">
+				{subHeading}
+			</div>
+			<div className="avatar">{avatar}</div>
 		</div>
 	);
 };
@@ -67,7 +72,7 @@ const HelperItems = [
 
 export const Helper = () => {
 	return (
-		<div className={classes.category}>
+		<div className="px-28 grid items-center place-items-center grid-cols-3">
 			{HelperItems.map((item) => (
 				<HelperItem
 					image={item.image}

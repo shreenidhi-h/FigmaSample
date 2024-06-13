@@ -160,10 +160,10 @@
 	gap: 32px;
 	border-radius: 16px;
 	opacity: 0px;
-	background-color: #f9fafb;
+	background-color: rgb(249, 250, 251);
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-itenter;
 	flex-direction: column;
 }
 

@@ -1,68 +1,43 @@
 import React from "react";
 import Content from "./Content.png";
-import { useState } from "react";
 import iconbtn from "./iconbtn.png";
+import { Toggle } from "../Toggle/Toggle";
 
 function Section() {
-	const [selectedDiv, setSelectedDiv] = useState(0);
-
-	let toggleCheck = selectedDiv == 0 ? " themelight" : "";
-	let toggleCheck2 = selectedDiv == 1 ? " themelight" : "";
-
 	return (
-		<div className="section flex justify-center flex-col items-center bg-slate-400">
-			<div className="container-one">
-				<div className="contentsec">
-					<div className="heading-s">
-						<div className="h-badge">
-							<div className="badge-group">
-								<div className="badge">
-									<div
-										className={`textNew${toggleCheck}`}
-										onClick={() => {
-											setSelectedDiv(0);
-										}}
-									>
-										New feature
-									</div>
-								</div>
-								<div className="dashboardText">
-									<div
-										className={`dashboard${toggleCheck2}`}
-										onClick={() => {
-											setSelectedDiv(1);
-										}}
-									>
-										Check out the team dashboard
-									</div>
-								</div>
-							</div>
-
-							<div className="heading-element">
-								<div className="heading">
-									Beautiful analytics to grow smarter
-								</div>
-								<div className="supporting-text">
-									Powerful, self-serve product and growth analytics to help you
-									convert, engage, and retain more users. Trusted by over 4,000
-									startups.
-								</div>
-							</div>
+		<div className="flex justify-center flex-col items-center">
+			<div className="container-one flex justify-center flex-col items-center">
+				<Toggle />
+				<div className="flex justify-center flex-col items-center">
+					<div className="flex justify-center items-center flex-wrap">
+						<div className="text-6xl font-semibold text-center tracking-tight text-coal mb-8 mt-4">
+							Beautiful analytics to grow smarter
+						</div>
+						<div className="text-xl font-normal text-center text-uda">
+							Powerful, self-serve product and growth analytics to help you
+							convert, engage, and retain more users. Trusted by over 4,000
+							startups.
 						</div>
 					</div>
-					<div className="actions">
-						<button className="button1">
+				</div>
+				<div className="my-10 flex items-center justify-center">
+					<button className="py-4 px-7 rounded-lg border items-center flex border-gray-300 hover:shadow-sm hover:shadow-coal">
+						<div>
 							<img src={iconbtn} />
+						</div>
 
-							<div className="btnText1">Demo</div>
-						</button>
-						<button className="button2">
-							<div className="btnText2">Sign up</div>
-						</button>
-					</div>
+						<div className="ml-3 text-lg items-end text-slate-700 font-semibold text-left">
+							Demo
+						</div>
+					</button>
+					<button className="ml-3 py-4 px-7 rounded-lg border bg-lightpurple shadow-sm shadow-coal border-lavender hover:shadow-sm hover:shadow-coal hover:bg-purple-300">
+						<div className="text-white font-semibold text-left text-lg ">
+							Sign up
+						</div>
+					</button>
 				</div>
 			</div>
-			<div className="container-two">
+			<div className="">
 				<img src={Content} alt="Content" className="content-img" />
 			</div>
 		</div>

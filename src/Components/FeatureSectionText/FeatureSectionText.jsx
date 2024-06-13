@@ -2,16 +2,19 @@ import arrow from "./arrow.png";
 import FeaturedIcon7 from "./FeaturedIcon7.png";
 import FeaturedIcon8 from "./FeaturedIcon8.png";
 import FeaturedIcon9 from "./FeaturedIcon9.png";
-import styles from "./Helper.module.css";
 
 function FeatureItem({ icon, heading, subHeading, links }) {
 	return (
-		<div>
-			<div className={styles.featureText}>
-				<div className={styles.icon}>{icon}</div>
-				<div className={styles.heading}>{heading}</div>
-				<div className={styles.subheading}>{subHeading}</div>
-				<div className={styles.links}>{links}</div>
+		<div className="m-5">
+			<div className="mt-16 flex justify-center items-center">{icon}</div>
+			<div className="font-semibold text-xl text-coal text-center">
+				{heading}
+			</div>
+			<div className="text-base text-uda text-center font-normal">
+				{subHeading}
+			</div>
+			<div className="text-base font-semibold text-left text-lavender">
+				{links}
 			</div>
 		</div>
 	);
@@ -23,15 +26,11 @@ const FeatureItems = [
 		subHeading:
 			"Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
 		links: (
-			<div className={styles.linkstyle}>
-				<a
-					href="https://www.zysk.tech/"
-					target="_blank"
-					className={styles.atext}
-				>
+			<div className="flex items-center justify-center mt-2">
+				<a href="https://www.zysk.tech/" target="_blank" className="atext">
 					Learn more
 				</a>
-				<img src={arrow} className={styles.arrow} />
+				<img src={arrow} className="arrow" />
 			</div>
 		),
 	},
@@ -41,15 +40,11 @@ const FeatureItems = [
 		subHeading:
 			"An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
 		links: (
-			<div className={styles.linkstyle}>
-				<a
-					href="https://www.zysk.tech/"
-					target="_blank"
-					className={styles.atext}
-				>
+			<div className="flex items-center justify-center mt-2">
+				<a href="https://www.zysk.tech/" target="_blank" className="atext">
 					Learn more
 				</a>
-				<img src={arrow} className={styles.arrow} />
+				<img src={arrow} className="arrow" />
 			</div>
 		),
 	},
@@ -59,22 +54,18 @@ const FeatureItems = [
 		subHeading:
 			"Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
 		links: (
-			<div className={styles.linkstyle}>
-				<a
-					href="https://www.zysk.tech/"
-					target="_blank"
-					className={styles.atext}
-				>
+			<div className="flex items-center justify-center mt-2">
+				<a href="https://www.zysk.tech/" target="_blank" className="atext">
 					Learn more
 				</a>
-				<img src={arrow} className={styles.arrow} />
+				<img src={arrow} className="arrow" />
 			</div>
 		),
 	},
 ];
 export const FeatureSectionText = () => {
 	return (
-		<div className={styles.category}>
+		<div className="grid grid-cols-3 place-items-center">
 			{FeatureItems.map((item) => (
 				<FeatureItem
 					icon={item.icon}

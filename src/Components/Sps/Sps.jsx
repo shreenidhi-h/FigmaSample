@@ -1,15 +1,14 @@
 import React from "react";
 import logos from "./Logos.png";
-import "./Sps.css";
 
 const Sps = () => {
 	return (
 		<>
-			<div className="container-sps">
-				<div className="content-sps">
-					<div className="text">Join 4,000+ companies already growing</div>
-					<img src={logos} alt="logos" className="logos"></img>
+			<div className="flex justify-center items-center px-8 flex-col">
+				<div className="text-base font-medium text-uda">
+					Join 4,000+ companies already growing
 				</div>
+				<img src={logos} alt="logos"></img>
 			</div>
 		</>
 	);
