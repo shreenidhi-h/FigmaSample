@@ -18,7 +18,7 @@ const HelperItem = ({
 	avatar,
 }) => {
 	return (
-		<div className="flex justify-center items-start mx-5 flex-col w-fit">
+		<div className="max-sm:mb-12 flex justify-center items-left mx-5 flex-col w-fit">
 			<div className="image">{image}</div>
 			<div className="text-lavender text-left font-semibold text-sm mt-4 mb-1">
 				{supportingText}
@@ -72,7 +72,7 @@ const HelperItems = [
 
 export const Helper = () => {
 	return (
-		<div className="px-28 grid items-center place-items-center grid-cols-3">
+		<div className="sm:px-28  grid items-center place-items-center sm:grid-cols-3 max-sm:grid-cols-1">
 			{HelperItems.map((item) => (
 				<HelperItem
 					image={item.image}

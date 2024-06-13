@@ -3,7 +3,7 @@ import React from "react";
 export const Cat = () => {
 	return (
 		<div className="py-24 bg-lightblue flex flex-col justify-center items-center">
-			<div className="text-center flex flex-col justify-center items-center">
+			<div className="text-center max-sm:mx-5 flex flex-col justify-center items-center">
 				<div className="text-4xl tracking-tight font-semibold text-coal mb-4">
 					Start your free trial
 				</div>
@@ -11,7 +11,7 @@ export const Cat = () => {
 					Join over 4,000+ startups already growing with Untitled.
 				</div>
 			</div>
-			<div className="button flex justify-center items-center">
+			<div className="max-sm:hidden flex justify-center items-center">
 				<button className="rounded-lg px-5 py-3 bg-white border-slate-300 border hover:shadow-sm hover:shadow-coal mr-4">
 					<div className=" text-slate-700 text-base tetxt-center font-semibold">
 						Learn more
@@ -22,6 +22,19 @@ export const Cat = () => {
 				text-white  hover:text-violet-800 text-base"
 				>
 					Get started
+				</button>
+			</div>
+			<div className="sm:hidden mx-5 flex flex-col items-center">
+				<button
+					className="rounded-lg px-40 py-3 mb-4 bg-lightpurple font-semibold text-center hover:shadow-sm hover:shadow-coal hover:bg-violet-300
+				text-white  hover:text-violet-800 text-base"
+				>
+					Get started
+				</button>
+				<button className="rounded-lg px-40 py-3 bg-white border-slate-300 border hover:shadow-sm hover:shadow-coal">
+					<div className=" text-slate-700 text-base tetxt-center font-semibold">
+						Learn more
+					</div>
 				</button>
 			</div>
 		</div>

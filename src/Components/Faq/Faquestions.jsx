@@ -4,7 +4,7 @@ import { FaqWrapper } from "./FaqWrapper";
 
 export const Faq = () => {
 	return (
-		<div className="flex flex-col justify-center items-center mx-24">
+		<div className="flex flex-col justify-center items-center my-24 mx-24">
 			<div className="flex justify-center flex-col items-center">
 				<div className="text-4xl font-semibold txt-coal mb-5 text-center tracking-tight">
 					Frequently asked questions

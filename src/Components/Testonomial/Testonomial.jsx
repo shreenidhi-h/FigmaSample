@@ -5,10 +5,10 @@ import Avatar from "./Avatar.png";
 export const Testonomial = () => {
 	return (
 		<div
-			className="bg-gray-50 text-center
+			className="bg-gray-50 text-center my-24
 			flex items-center justify-center flex-col"
 		>
-			<div className="mt-24">
+			<div>
 				<img src={companylogo} alt="company logo" />
 			</div>
 			<div className="mt-4 text-center text-5xl text-coal tracking-tight font-medium">

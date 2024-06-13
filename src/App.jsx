@@ -15,7 +15,6 @@ function App() {
 		<div>
 			<Navbar />
 			<Section />
-			<Divider />
 			<Sps />
 			<Divider />
 			<Features />

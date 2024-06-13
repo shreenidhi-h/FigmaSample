@@ -6,14 +6,16 @@ import FeaturedIcon9 from "./FeaturedIcon9.png";
 function FeatureItem({ icon, heading, subHeading, links }) {
 	return (
 		<div className="m-5">
-			<div className="mt-16 flex justify-center items-center">{icon}</div>
-			<div className="font-semibold text-xl text-coal text-center">
+			<div className="mt-16 max-sm:mt-6 flex justify-center items-center">
+				{icon}
+			</div>
+			<div className="font-semibold mt-3 text-xl text-coal text-center">
 				{heading}
 			</div>
-			<div className="text-base text-uda text-center font-normal">
+			<div className="text-base mt-3 text-uda text-center font-normal">
 				{subHeading}
 			</div>
-			<div className="text-base font-semibold text-left text-lavender">
+			<div className="text-base mt-4 font-semibold text-left text-lavender">
 				{links}
 			</div>
 		</div>
@@ -65,7 +67,7 @@ const FeatureItems = [
 ];
 export const FeatureSectionText = () => {
 	return (
-		<div className="grid grid-cols-3 place-items-center">
+		<div className="grid grid-cols-3 place-items-center max-sm:grid-cols-1">
 			{FeatureItems.map((item) => (
 				<FeatureItem
 					icon={item.icon}

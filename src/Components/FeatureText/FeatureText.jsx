@@ -9,12 +9,12 @@ import FeaturedIcon6 from "./FeaturedIcon6.png";
 const FeatureItem = ({ icon, heading, subHeading }) => {
 	return (
 		<div>
-			<div className="m-5">
-				<div className="flex justify-center items-center">{icon}</div>
+			<div className="sm:m-5 max-sm:m-3">
+				<div className="flex justify-center mb-2 items-centers">{icon}</div>
 				<div className="text-xl font-semibold text-center text-coal">
 					{heading}
 				</div>
-				<div className="text-base font-normal text-uda text-center">
+				<div className="max-sm:mb-8 max-sm:mt-2 text-base font-normal text-uda text-center">
 					{subHeading}
 				</div>
 			</div>
@@ -67,7 +67,7 @@ const FeatureItems = [
 
 export const FeatureText = () => {
 	return (
-		<div className="grid grid-cols-3 place-items-center">
+		<div className="grid grid-cols-3 place-items-center max-sm:grid-cols-1">
 			{FeatureItems.map((item) => (
 				<FeatureItem
 					icon={item.icon}
