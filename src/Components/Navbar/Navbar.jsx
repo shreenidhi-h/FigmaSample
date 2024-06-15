@@ -1,8 +1,7 @@
 import logo from "./Logo.png";
 import avatar from "./avatar.png";
 import dropDown from "./dropDown.png";
-import Menu from "./Menu.png";
-
+import { Navmob } from "./Navmob";
 function Navbar() {
 	return (
 		<>
@@ -71,7 +70,7 @@ function Navbar() {
 			<div className="sm:hidden flex justify-center flex-col items-center mx-3">
 				<div className="w-full flex justify-between my-4 items-center">
 					<img src={logo}></img>
-					<img src={Menu}></img>
+					<Navmob />
 				</div>
 				<div className="flex justify-center mb-20  items-center h-px w-full bg-gray-200"></div>
 			</div>

@@ -298,8 +298,8 @@ export const Footer = () => {
 				</div>
 			</div>
 			<div className="w-full mt-24">
-				<div className=" max-sm:mb-8 border-t border-t-gray-200"></div>
-				<div className="flex justify-between items-center">
+				<div className="border-t border-t-gray-200"></div>
+				<div className="flex mt-8 justify-between items-center">
 					<img src={logo} alt="logo" />
 					<div className="text-base text-gray-500 font-normal text-left">
 						© 2077 Untitled UI. All rights reserved.

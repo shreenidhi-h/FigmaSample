@@ -37,11 +37,11 @@ function Section() {
 							</div>
 						</button>
 					</div>
-					<div className="my-6 sm:hidden mx-2 flex flex-col items-center justify-center">
-						<button className="bg-lightpurple mt-4 mb-3 py-3 px-40 font-semibold text-base text-white rounded-lg border-lavender hover:shadow-sm hover:shadow-coal hover:bg-purple-900">
+					<div className="my-6 sm:hidden flex flex-col px-2 w-full items-center justify-center">
+						<button className="bg-lightpurple mt-4 px-5 mb-3 py-3 w-full font-semibold text-base text-white rounded-lg border-lavender hover:shadow-sm hover:shadow-coal hover:bg-purple-900">
 							Sign up
 						</button>
-						<button className="rounded-lg py-3 px-40 border items-center flex border-gray-300 hover:shadow-sm hover:shadow-coal">
+						<button className=" justify-center rounded-lg py-3 w-full border items-center flex border-gray-300 hover:shadow-sm hover:shadow-coal">
 							<div>
 								<img src={iconbtn} />
 							</div>
