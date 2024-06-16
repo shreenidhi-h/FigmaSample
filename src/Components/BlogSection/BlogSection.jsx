@@ -26,10 +26,10 @@ export const BlogSection = () => {
 				</div>
 			</div>
 			<Helper />
-			<div className="sm:hidden mx-5">
+			<div className="sm:hidden w-full px-3">
 				<button
-					className="px-40 py-3 rounded-lg border border-solid border-lightpurple bg-lightpurple hover:bg-violet-300  shadow-sm shadow-coal
-							text-base text-white hover:text-violet-800 font-semibold text-left"
+					className="py-3 w-full rounded-lg border border-solid border-lightpurple bg-lightpurple hover:bg-violet-300  shadow-sm shadow-coal
+							text-base text-white hover:text-violet-800 font-semibold text-center"
 				>
 					View all posts
 				</button>

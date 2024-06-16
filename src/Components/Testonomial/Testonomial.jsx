@@ -11,7 +11,7 @@ export const Testonomial = () => {
 			<div>
 				<img src={companylogo} alt="company logo" />
 			</div>
-			<div className="mt-4 text-center text-5xl text-coal tracking-tight font-medium">
+			<div className="mt-4 px-3 w-full text-center text-5xl text-coal tracking-tight font-medium">
 				We’ve been using Untitled to kick start every new project and can’t
 				imagine working without it.
 			</div>

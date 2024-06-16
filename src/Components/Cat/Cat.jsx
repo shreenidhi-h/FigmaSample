@@ -24,17 +24,18 @@ export const Cat = () => {
 					Get started
 				</button>
 			</div>
-			<div className="sm:hidden mx-5 flex flex-col items-center">
+			<div className="sm:hidden w-full px-3 flex flex-col items-center">
 				<button
-					className="rounded-lg px-40 py-3 mb-4 bg-lightpurple font-semibold text-center hover:shadow-sm hover:shadow-coal hover:bg-violet-300
+					className="rounded-lg py-3 w-full mb-4 bg-lightpurple font-semibold text-center hover:shadow-sm hover:shadow-coal hover:bg-violet-300
 				text-white  hover:text-violet-800 text-base"
 				>
 					Get started
 				</button>
-				<button className="rounded-lg px-40 py-3 bg-white border-slate-300 border hover:shadow-sm hover:shadow-coal">
-					<div className=" text-slate-700 text-base tetxt-center font-semibold">
-						Learn more
-					</div>
+				<button
+					className="rounded-lg py-3 w-full bg-white border-slate-300 border hover:shadow-sm hover:shadow-coal
+				 text-slate-700 text-base text-center font-semibold"
+				>
+					Learn more
 				</button>
 			</div>
 		</div>

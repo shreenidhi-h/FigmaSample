@@ -68,8 +68,8 @@ function Navbar() {
 				</div>
 			</div>
 			<div className="sm:hidden flex justify-center flex-col items-center mx-3">
-				<div className="w-full flex justify-between my-4 items-center">
-					<img src={logo}></img>
+				<div className="w-full  flex  justify-between my-4 items-center">
+					<img src={logo} className=""></img>
 					<Navmob />
 				</div>
 				<div className="flex justify-center mb-20  items-center h-px w-full bg-gray-200"></div>
