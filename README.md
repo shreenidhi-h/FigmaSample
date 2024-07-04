@@ -5,4 +5,4 @@ This is a React project for a landing page.
 - To run the project locally, use npm run dev
 
 - link of the website
-https://zyskassignmentshreenidhi.netlify.app/
+https://effervescent-kelpie-2d6789.netlify.app/
